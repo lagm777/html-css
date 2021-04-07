@@ -72,3 +72,12 @@ h2 {
 h3 {
 	font-size: 1.5em;
 }
+
+pre {
+	background: #FEC62E;
+}
+
+.hero {
+	background: linear-gradient(to top, rgba(255,255,255,0.2), transparent), url('../images/pattern.png') ;
+	height: 350px;
+}
