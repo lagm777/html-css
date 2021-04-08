@@ -83,9 +83,23 @@ pre {
 }
 
 /*pseudo elementos*/
+.section-content{
+	counter-reset: titleList;
+}
+.section-content h3{
+	counter-increment: titleList;
+}
+
+.section-content h3::before{
+	content: counter(titleList, decimal) ;
+}
+
+h3 {
+	counter-increment: titleList;
+}
 
 h3::before {
-	content: '-';
+	content: counter(titleList);
 }
 
 h3::after {
