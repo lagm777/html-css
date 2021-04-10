@@ -65,14 +65,27 @@ nav details summary{
 h1 {
 	font-size: 60px;
 	margin-top: 64px;
+	margin-bottom: 16px;
+}
+
+h1 + p {
+	margin-bottom: 64px;
+}
+
+hr {
+	margin: 64px 0;
+	border-color: var(--gray10);
 }
 
 h2 {
 	font-size: 2em;
+	margin: 40px 0;
 }
 
 h3 {
 	font-size: 1.5em;
+	margin-top: 16px;
+	margin-bottom: 24px;
 }
 
 pre {
@@ -85,6 +98,10 @@ pre {
 }
 
 /*pseudo elementos*/
+.section-content img {
+	margin-top: 40px;
+}
+
 .section-content{
 	counter-reset: titleList;
 }
